@@ -10,11 +10,7 @@ In summary, the main contributions of this paper are as follows:
 
 - We evaluate our approach on the RCC-FGVC and EL-FGVC datasets using five different encoders/backbones, and  provide comparisons with representative fine-grained classification methods, which demonstrate the effectiveness of our proposed approach in the extremely fine-grained recognition task of discriminating resembling glyphs in the wild.
 
-![PDEAttUnet (1)](https://user-images.githubusercontent.com/18519110/228053614-95a1574a-5c8a-45f2-a0d0-f30590474a2f.png)
 
-<p align="center">
-  Figure 1: Our proposed PDEAtt-Unet architecture details.
-</p> 
 
 ## Implementation:
 #### PDAtt-Unet architecture and Hybrid loss function:
@@ -34,24 +30,5 @@ The datasets could be donwloaded from: http://medicalsegmentation.com/covid19/
 ## Citation: If you found this Repository useful, please cite:
 
 ```bash
-@article{bougourzi2023pdatt,
-  title={PDAtt-Unet: Pyramid Dual-Decoder Attention Unet for Covid-19 infection segmentation from CT-scans},
-  author={Bougourzi, Fares and Distante, Cosimo and Dornaika, Fadi and Taleb-Ahmed, Abdelmalik},
-  journal={Medical Image Analysis},
-  pages={102797},
-  year={2023},
-  publisher={Elsevier}
-}
+Coming Soon
 ```
-## Ablation architectures: PAttUnet and DAtt-Unet 
-
-
-![PAttUnet (1)](https://user-images.githubusercontent.com/18519110/164985902-fbf77196-e435-40ec-aa89-bdeb1cdfc093.png)
-<p align="center">
-  Figure 2: Our proposed PAtt-Unet architecture details.
-</p>
-
-![CDAttUnet (1)](https://user-images.githubusercontent.com/18519110/164985900-d1b48555-8a6d-4bb0-86f8-d8ddf7b415df.png)
-<p align="center">
-  Figure 3: Our proposed DAtt-Unet architecture details.
-</p>  
