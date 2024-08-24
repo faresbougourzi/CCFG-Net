@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Dec 12 11:56:35 2021
-
-@author: walter
-"""
-
-# -*- coding: utf-8 -*-
 """
 Created on Tue Feb 23 00:22:40 2021
 
