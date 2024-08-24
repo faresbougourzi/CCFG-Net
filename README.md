@@ -14,17 +14,13 @@ In summary, the main contributions of this paper are as follows:
 
 ## Implementation:
 #### PDAtt-Unet architecture and Hybrid loss function:
-``` Architectures.py ``` contains our implementation of the comparison CNN baseline architectures  (Unet, Att-Unet and Unet++) and the proposed PDAtt-Unet. architecture.
+``` create_train_val_test.py ``` prepare the three splits before training.
 
-``` Hybrid_loss.py ``` contains the proposed Edge loss function.
+``` create_database.py ``` prepares the training data to train our approach.
 
 #### Training and Testing Implementation:
-``` detailed train and test ``` contains the training and testing implementation.
-
-- First: the dataset should be prepared using ``` prepare_dataset.py ```, this saves the input slices, lung mask, and infection mask as ``` .pt ``` files
-The datasets could be donwloaded from: http://medicalsegmentation.com/covid19/
-
-- Second:  ``` train_test_PDAttUnet.py ``` can be used to train and test the proposed PDAtt-Unet architecture with the proposed Hybrid loss function (with Edge loss).
+``` train_test_Resnet_SCL.py ``` contains the training of the pretrained backbone with SCL.
+``` train_test_CCFG_Net.py ``` contains the training and evaluation of our approach.
 
 
 ## Citation: If you found this Repository useful, please cite:
