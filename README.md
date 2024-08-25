@@ -10,9 +10,9 @@ In summary, the main contributions of this paper are as follows:
 
 - We evaluate our approach on the RCC-FGVC and EL-FGVC datasets using five different encoders/backbones, and  provide comparisons with representative fine-grained classification methods, which demonstrate the effectiveness of our proposed approach in the extremely fine-grained recognition task of discriminating resembling glyphs in the wild.
 
-![DesNet_2030](https://github.com/user-attachments/assets/7b4d781a-6638-4ad8-a7ec-1cf323d173b5)
-
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7b4d781a-6638-4ad8-a7ec-1cf323d173b5" alt="Sample Image" width="600" height="400"/>
+</p>
 <p align="center">
   Figure 1: Our proposed CCFG-Net approach.
 </p> 
